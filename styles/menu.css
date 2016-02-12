@@ -4,11 +4,14 @@
 }
 
 .menu {
-   background: url(../images/bg_menu.png);
-   text-align:center;
-   height: 20px;
-   width: 100%;
-   margin:0 auto;
+      padding: 7px 0px 0px;
+      z-index: 10;
+      position: fixed;
+      background: url(../images/bg_menu.png);
+      text-align: center;
+      height: 27px;
+      width: 100%;
+      margin: 0 auto;
 }
 .menu a{
   color:white;
