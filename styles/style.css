@@ -53,8 +53,15 @@ body {
 }
 
 /* links */
-.out_link_img{width: 150px; float: left; padding: 0px 10px 10px 10px;}
-.out_link_img a:hover{width: 150px; float: left; padding: 0px 10px 10px 10px; opacity: 0.5;}
+.textwidget img{
+		width: 130px;
+    float: left;
+    padding: 0px 10px 21px 10px;}
+
+ .textwidget a:hover{
+	  		width: 150px!important;
+	      float: left;
+	      padding: 0px 10px 21px 10px;}
 
 a, a:visited{text-decoration:none;}
 a:hover{text-decoration:none;}
