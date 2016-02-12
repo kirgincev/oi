@@ -1,0 +1,22 @@
+.menu li {
+  margin:0 auto;
+  display:inline;
+}
+
+.menu {
+   background: url(../images/bg_menu.png);
+   text-align:center;
+   background-color: red;
+   height: 20px;
+   width: 100%;
+   margin:0 auto;
+}
+.menu a{
+  color:white;
+  padding: 20px;
+  text-align:center;
+  text-decoration:none;
+}
+.menu a:hover{
+  color:gray;
+}
