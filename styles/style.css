@@ -53,7 +53,9 @@ body {
 }
 
 /* links */
-.out_link_img{width: 150px; float: left; padding: 10px}
+.out_link_img{width: 150px; float: left; padding: 0px 10px 10px 10px;}
+.out_link_img a:hover{width: 150px; float: left; padding: 0px 10px 10px 10px; opacity: 0.5;}
+
 a, a:visited{text-decoration:none;}
 a:hover{text-decoration:none;}
 a img{border:none}
