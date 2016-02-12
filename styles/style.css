@@ -53,7 +53,7 @@ body {
 }
 
 /* links */
-.out_link_img{width: 180px; float: left;}
+.out_link_img{width: 150px; float: left; padding: 10pxl}
 a, a:visited{text-decoration:none;}
 a:hover{text-decoration:none;}
 a img{border:none}
