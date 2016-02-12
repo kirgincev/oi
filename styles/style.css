@@ -1,4 +1,4 @@
-/*  
+/*
 
 Imperial Hotel - CSS File
 
@@ -69,7 +69,7 @@ h4	{font-size:16px;}
 h5	{font-size:14px;}
 h6	{font-size:13px;}
 h1, h2, h3, h4, h5, h6, .pagedesc,
-.slider-text, #topnav, 
+.slider-text, #topnav,
 .button, .button:visited, input[type="submit"], button, .more-link,
 .wp-pagenavi, blockquote, .fn, price
 { font-weight:normal; line-height:normal; font-family: 'Amethysta', serif; }
@@ -160,25 +160,25 @@ blockquote {
 	border-width:1px 0px 1px 0px;
 	color:#332530;
 }
-	
+
 
 blockquote.left, blockquote.right  {
 	float:right;
 	width:55%;
-	font-size:14px; 
+	font-size:14px;
 	line-height:20px;
 	background: url(../images/quote2.png) no-repeat;
 	background-position: 15px 18px;
 	padding: 22px 10px 22px 50px!important;
 	margin-top:10px;
 	}
-	
+
 blockquote.left{
 	float:left;
 	margin-left:0px;
 	margin-right:20px;}
 
-	
+
 blockquote p{ margin:0px;}
 blockquote div{}
 blockquote cite,
@@ -237,13 +237,13 @@ sub {
 	padding:0;
 }
 
-#outerheader, 
-#outermainmenu, 
-#outerlogo, 
-#outerslider, 
-#outeraftercontent, 
-#outermain,  
-#outerfootersidebar, 
+#outerheader,
+#outermainmenu,
+#outerlogo,
+#outerslider,
+#outeraftercontent,
+#outermain,
+#outerfootersidebar,
 #outerfooter{width:100%; margin:0 auto}
 
 
@@ -259,7 +259,7 @@ sub {
 /* HEADER & MENU
 -------------------------------------------------------------- */
 #outerlogo{ z-index:3; position:absolute;}
-#logo{ position:relative; text-align:center; padding:18px 0 0px; margin-bottom:25px;}
+#logo{ position:relative; text-align:center; padding: 37px 0 0px; margin-bottom:25px;}
 #logo h1{ font-size:25px; text-transform:uppercase; margin-bottom:0px; margin-top:10px; }
 #logo .desc{ font-style:italic; font-size:13px; padding-bottom:0; display:block;}
 
@@ -302,12 +302,12 @@ sub {
 	padding:		0;
 	list-style:		none;
 	font-size:15px;
-	
+
 }
 .sf-menu {
 	line-height:100%;
 	position:absolute;
-	
+
 }
 .sf-menu ul {
 	position:		absolute;
@@ -316,7 +316,7 @@ sub {
 }
 .sf-menu ul li {
 	width:			100%;
-	
+
 }
 .sf-menu li:hover {
 	visibility:		inherit; /* fixes IE7 'sticky bug' */
@@ -334,7 +334,7 @@ sub {
 	z-index:		99;
 	padding:0 15px;
 	line-height:25px;
-	
+
 }
 ul.sf-menu li:hover li ul,
 ul.sf-menu li.sfHover li ul {
@@ -350,13 +350,13 @@ ul.sf-menu li li.sfHover ul {
 ul.sf-menu li li:hover li ul,
 ul.sf-menu li li.sfHover li ul {
 	top:			-999em;
-	
+
 }
 ul.sf-menu li li li:hover ul,
 ul.sf-menu li li li.sfHover ul {
 	left:			12em; /* match ul width */
 	top:			-1px;
-	
+
 }
 .sf-menu ul li a{
 	padding:12px 0px!important;
@@ -366,7 +366,7 @@ ul.sf-menu li li li.sfHover ul {
 
 .sf-menu li ul {
 	padding:0px 0px;
-		
+
 }
 .sf-menu a.sf-with-ul {
 	padding-right: 	0px;
@@ -462,7 +462,7 @@ a.image img{ display:block;}
 	cursor:pointer;
 	width:100%;
 	height:100%;
-	
+
 }
 
 
@@ -487,7 +487,7 @@ a.image img{ display:block;}
 	padding:0 0;
 	text-align:center;
 	width:100%;
-	clear:both;	
+	clear:both;
 	}
 
 
@@ -556,8 +556,8 @@ img.alignnone {
 	margin-right: auto;
 	margin-bottom:15px;
 }
-img.alignleft, 
-img.alignright, 
+img.alignleft,
+img.alignright,
 img.aligncenter,
 img.alignnone {
 	margin-bottom: 12px;
@@ -596,7 +596,7 @@ object {
 	list-style-type:none;
 	margin:0;
 	padding:0;
-	
+
 }
 .sidebar .widget-container{margin-bottom:40px; padding:0 0 0 0;}
 
@@ -624,8 +624,8 @@ object {
 .searchbutton{position:absolute; top:11px; right:0px; cursor:pointer}
 
 /* Social Icon */
-.sn{list-style-type:none; margin:0 0 0 0; padding:0;} 
-.sn li{list-style-type:none; margin:0; padding:0 15px 0 0 !important; display:inline; background:transparent; border:0px!important;} 
+.sn{list-style-type:none; margin:0 0 0 0; padding:0;}
+.sn li{list-style-type:none; margin:0; padding:0 15px 0 0 !important; display:inline; background:transparent; border:0px!important;}
 .sn span{height:16px; width:16px; display:inline-block}
 .icon-img{background-position:0 0;}
 .icon-img:hover{opacity:.8; background-position:0 -16px!important;}
