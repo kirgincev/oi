@@ -101,7 +101,7 @@ p {
 
 ul {
 	list-style: disc;
-	margin: 0 0 5px 1.5em;
+	margin: 0 0 0px 0em;
 }
 ul li, ol li{ padding-bottom:11px;}
 ol {

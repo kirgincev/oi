@@ -14,11 +14,22 @@
       margin: 0 auto;
 }
 .menu a{
-  color:white;
-  padding: 20px;
+  color:white!important;
+  padding: 17px;
   text-align:center;
   text-decoration:none;
 }
 .menu a:hover{
-  color:gray;
+  color:#f48147;
+}
+
+@media screen and (min-width:720px)  {
+
+.menu a{
+    color:white!important;
+    padding: 7px;
+    text-align:center;
+    text-decoration:none;
+  }
+
 }
