@@ -53,15 +53,12 @@ body {
 }
 
 /* links */
-.textwidget img{
+.out_link_img{
 		width: 130px;
     float: left;
     padding: 0px 10px 21px 10px;}
 
- .textwidget a:hover{
-	  		width: 150px!important;
-	      float: left;
-	      padding: 0px 10px 21px 10px;}
+ 
 
 a, a:visited{text-decoration:none;}
 a:hover{text-decoration:none;}
